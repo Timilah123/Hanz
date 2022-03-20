@@ -916,10 +916,10 @@ module.exports = handle = (client, Client) => {
  	                 const mediaMsg = await client.prepareMessageMedia(await getBuffer(configs.imgUrl), 'imageMessage')
                      const buttonMessage = {
                            contentText: menu(data.prefix, data.pushname),
-                           footerText: 'HANZ々OFC彡',
-                                "contextInfo": {
+                           footerText: 'ELOF BOT MD',
+                                "contextInfo":
 									  mentionedJid: [configs.ownerList[0]],
-                                      participant: sender,
+                                      particiant: sender,
                                       stanzaId: message.key.id,
                                       quotedMessage: message.message,
                                      },
@@ -927,14 +927,14 @@ module.exports = handle = (client, Client) => {
                                      {
                                        buttonId: `${data.prefix}info`,
                                        buttonText: {
-                                          displayText: "SEWA"
+                                          displayText: "SEWA ELOF BOT"
                                         },
                                          "type": "RESPONSE"
                                      },
                                      {
                                        buttonId: `${data.prefix}owner`,
                                        buttonText: {
-                                          displayText: "OWNER"
+                                          displayText: "OWNER ELOF BOT"
                                         },
                                          "type": "RESPONSE"
                                      },
